@@ -1,0 +1,274 @@
+html, body {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+img {
+	display: inline-block;
+}
+
+
+/*<!-- HEADER -->*/
+
+.header {
+	background: #343c4e;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	color: black;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.h_title {
+	text-shadow: 2px 2px 3px black, 0 0 0.5em blue;
+	font-size: 76px;
+	line-height: 62px;
+	margin-bottom: 30px;
+	font-family: 'Merriweather', serif;
+
+}
+
+.h_slogan {
+	font-size: 28px;
+	line-height: 42px;
+	text-shadow: 2px 1px 2px black, 0 0 0.5em blue;
+}
+
+.h_arrow {
+	font-size: 78px;
+	width: 60px;
+	height: 50px;
+	margin-left: -30px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+}
+
+.h_img_top{
+position: absolute;
+top: 5px;
+left: 5px;
+width: 70px;
+opacity: 0.6;
+}
+
+.h_img {
+border-radius: 50%;
+}
+.yak1 {
+	color: black;
+}
+
+
+/*<!-- PORTFOLIO -->*/
+
+.Conteiner {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.Kol {
+	width: 360px;
+	margin-right: 30px;
+	float: left;
+}
+
+.Kol:last-child {
+	margin-right: 0px;
+}
+
+.title {
+	font-size: 46px;
+	margin-bottom: 60px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+.p_title {
+	font-size: 24px;
+	line-height: normal;
+	margin-bottom: 5px;
+	
+}
+
+.p_title:hover {
+	text-shadow: 2px 2px 3px black;
+}
+
+.p_img {
+	margin-bottom: 17px;
+}
+
+.Portfolio {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.p_obr {
+	margin-bottom: 20px;
+
+}
+
+.p_title a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid #fff;
+}
+
+.p_title a:hover{
+	color: #0052c2;
+	border-color:  rgba(0, 82, 194, 0.3);
+}
+
+.p_text p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+
+
+/*<!-- FOOTER -->*/
+
+.footer {
+	background-color: #061634;
+	color: #6479a2;
+	padding-top: 100px;
+	padding-bottom: 90px;
+
+}
+
+.footer p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+p.f_name {
+	font-size: 28px;
+	margin-bottom: 10px;
+	line-height: normal;
+	font-family: 'Merriweather', serif;
+}
+
+p.f_social {
+	color: #fff;
+
+}
+
+p.f_social_icons {
+	color: #fff;
+	font-size: 32px;
+
+}
+
+p.f_social_icons a{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+p.f_social_icons a:last-child  {
+	margin-right: 0px;
+}
+
+p.f_social_icons a:hover {
+	color: #ffe400;
+}
+
+/*отправка емеил*/
+.button {
+	border: 2px solid #fff;
+	border-radius: 50px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 23px;
+	padding-right: 23px;
+	margin-bottom: 13px;
+}
+
+.button:hover {
+	color: #061634;
+	background-color: white; 
+}
+
+/*Forma E-Mail*/
+
+#feedback {
+	display:none;
+	max-width: 600px;
+ 	padding: 2%;
+  	border-radius: 10px;
+  	background-image:url(../img/form_back.jpg);
+  	opacity: 0.9;
+ }
+
+
+form .row {
+display: block;
+padding: 7px 8px;
+margin-bottom: 7px;
+}
+
+form label {
+display: inline-block;
+font-size: 1em;
+font-weight: bold;
+width: 120px;
+padding: 6px 0;
+color: white;
+vertical-align: top;
+}
+
+
+form .txtarea {
+display: inline-block;
+padding: 8px 9px;
+padding-right: 30px;
+width: 240px;
+font-family: 'Oxygen', sans-serif;
+font-size: 1em;
+font-weight: normal;
+color: #898989;
+}
+
+form #f_msg {
+	height: 200px;
+}
+
+
+/*knopka*/
+
+
+.btn {
+ border: 2px solid #226fbe;
+}
+
+.btn:hover {
+ background: transparent;
+ color: #226fbe;
+}
+
+

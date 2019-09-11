@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="img/ico.png">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<script src="js/jquery-3.2.1.min.js"> </script>
+	<script src="js/jquery-ui.js"></script>
+	<script  src="js/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<script  src="js/js.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	
+
+	<title>Мой портфолио</title>
+</head>
+<body>
+	
+	<!-- HEADER -->
+	
+		<div class="header">
+			<div class="h_img_top"><img src="img/earth.gif" class="h_img" alt="Animation" ></div>
+			<div class="h_title">Сергей Апончик
+			</div>
+			<div class="h_slogan">Создание сайтов на HTML и CSS <br> HTML5. CSS3. JS. jQuery. jQuery-UI.
+			</div>
+			
+			<a href="#yak1" class="yak1">		
+				<div class="h_arrow">
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</div>
+			</a>
+
+		</div>
+
+	<!-- PORTFOLIO -->
+
+		<div class="Portfolio">
+			<div class="Conteiner">
+				
+				<div class="title">
+					<span id="yak1">Портфолио</span>
+					<hr>
+				</div>
+
+
+
+				<div class="row">
+					<div class="Kol">
+						<div class="p_obr">
+							<a data-fancybox="gallery" href="img/proj_1_big.jpg">
+								<div class="p_img">
+									<img src="img/proj_1.jpg" alt="Макет сторінки №1">
+								</div>
+							</a>
+							<div class="p_title">
+								<a href="404.html">Макет №1</a>
+							</div>
+
+							<div class="p_text">
+								<p>Создание одностраничного сайта по PSD макете.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="Kol">
+						<div class="p_obr">
+							<a data-fancybox="gallery" href="img/proj_2_big.jpg">
+								<div class="p_img">
+									<img src="img/proj_2.jpg" alt="Макет сторінки №2">
+								</div>
+							</a>
+
+							<div class="p_title">
+								<a href="404.html">Макет №2</a>
+							</div>
+
+							<div class="p_text">
+								<p>Создание лендинга хостинг компании. Мобильная адаптивность.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="Kol">
+						<div class="p_obr">
+							<a data-fancybox="gallery" href="img/proj_3_big.jpg">
+								<div class="p_img">
+									<img src="img/proj_3.jpg" alt="Макет сторінки №3">
+								</div>
+							</a>
+
+							<div class="p_title">
+								<a href="404.html">Макет №3</a>
+							</div>
+
+							<div class="p_text">
+								<p>Создание личного сайта портфолио на котором мы сейчас находимся.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+	<!-- FOOTER -->
+
+	<div class="footer">
+		<div class="Conteiner">
+			<div class="row">
+				<div class="Kol">
+					<p class="f_name">Сергей Апончик</p>
+					<p>HTML верстка и создание сайтов.</p>
+				</div>
+
+				<div class="Kol">
+				<p class="f_social">Мои профили в соцыальных сетях:</p>
+				<p class="f_social_icons">
+					<a href="https://www.vk.com" target="blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+					<a href="https://www.twitter.com" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				</p>
+					
+				</div>
+
+				<div class="Kol">
+					<div><a href="#feedback" rel="nofollow" class="button modalbox">Для связи</a></div>
+										
+					<p>Напишите мне, что бы заказать или узнать <br>стоимость верстки вашего проекта.</p>
+
+						
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div id="feedback">
+    <h1>Отправить сообщение!</h1>
+    <form id="f_contact" name="contact" action="#" method="post">
+    <div class="row">
+        <label for="f_name">Ваше имя: </label>
+        <input type="text" id="f_name" name="f_name"  class="txtarea"  placeholder="Фамилия Имя Отчество">
+    </div>
+    <div class="row">
+        <label for="f_email">Ваш E-mail: </label>
+        <input type="text" id="f_email" name="f_email"  class="txtarea"  placeholder="Адрес электронной почты">
+    </div>
+    <div class="row">
+        <label for="f_msg">Введите сообщение: </label>
+        <textarea id="f_msg" name="f_msg" class="txtarea"></textarea>
+    </div>
+        <button id="f_send" class="btn">Отправить E-mail</button>
+    </form>
+</div>	
+
+
+</body>
+</html>
